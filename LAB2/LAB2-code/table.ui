@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>864</width>
+    <height>549</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>841</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>航班号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>起飞时间</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>降落时间</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>状态</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>机型</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
